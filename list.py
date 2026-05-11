@@ -1,0 +1,7 @@
+num=tuple(map(int,input("Enter the numbers:").split()))
+sum1=sum(num)
+print("Sum of all number",sum1)
+larger1=max(num)
+print("largest number:",larger1)
+smaller1=min(num)
+print("smaller number:",smaller1)
