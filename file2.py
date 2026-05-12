@@ -1,0 +1,5 @@
+with open("Notes.txt","w") as f:
+    f.write("One of the greatest actors of all time\n Robert De Niro was born in 1943, in Manhattan, New York City, to artists Virginia (Admiral) and\n Robert De Niro Sr.. His paternal grandfather was of Italian descent and his other ancestry \nis Irish, English, Dutch, German and French. He was trained at the Stella Adler Conservatory and the American Workshop. Robert De Niro first gained fame\n for his role in Bang the Drum Slowly (1973), but he gained his reputation as a volatile actor in Mean Streets (1973), which was his first film with director Martin Scorsese. He received an Academy Award for Best Supporting Actor for his role in The Godfather Part II (1974) and received Academy Award nominations\n for best actor in Taxi Driver (1976), The Deer Hunter (1978) and Cape Fear (1991). He received the Academy Award for Best Actor for his role as Jake LaMotta in Raging Bull (1980)")
+
+f=open("Notes.txt")
+print(f.read())
